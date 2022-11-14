@@ -3,10 +3,10 @@
 
 #define ZERO 0
 
-void User::init(unsigned int id, string username, unsigned int age)
+void User::init(unsigned int id, string name, unsigned int age)
 {
 	this->id = id;
-	this->name = username;
+	this->name = name;
 	this->age = age;
 	this->devicesList = new DevicesList;
 	this->devicesList->init();
