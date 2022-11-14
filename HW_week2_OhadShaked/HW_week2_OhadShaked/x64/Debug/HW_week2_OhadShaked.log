@@ -1,0 +1,6 @@
+﻿  Device.cpp
+  test1Device.cpp
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test1Device.cpp(18,1): warning C4005: 'PURPLE': macro redefinition
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test1Device.cpp(12): message : see previous definition of 'PURPLE'
+  Generating Code...
+  HW_week2_OhadShaked.vcxproj -> C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\x64\Debug\HW_week2_OhadShaked.exe

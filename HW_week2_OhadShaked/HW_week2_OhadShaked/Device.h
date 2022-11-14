@@ -28,13 +28,14 @@ private:
 	unsigned int id;
 	DeviceType type;
 	string os;
+	bool activeStatus;
 
 public:
 	void init(unsigned int id, DeviceType type, string os);
-	unsigned int getID();
-	DeviceType getType();
-	string getOS();
-	bool isActive();
+	unsigned int getID() const;
+	DeviceType getType() const;
+	string getOS() const;
+	bool isActive() const;
 	void activate();
 	void deactivate();
 };
