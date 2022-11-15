@@ -13,7 +13,8 @@ enum DeviceType {PHONE, PC, LAPTOP, TABLET};		     //
 #define UbuntuOS "UbuntuLinux"                           //						
 #define RedHatOS "RedHatLinux"							 //
 #define MacOS "MacOS"									 //
-#define IOS "IOS"										 //
+#define IOS "IOS"									     //
+#define WINDOWS "Windows"								 //
 #define WINDOWS7 "Windows7"                              //
 #define WINDOWS10 "Windows10"                            //
 #define WINDOWS11 "Windows11"                            //

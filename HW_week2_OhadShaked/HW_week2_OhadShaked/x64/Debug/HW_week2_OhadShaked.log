@@ -1,15 +1,14 @@
-﻿  Profile.cpp
-  ProfileList.cpp
-  SocialNetwork.cpp
-  test3Profile.cpp
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(18,1): warning C4005: 'PURPLE': macro redefinition
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(12): message : see previous definition of 'PURPLE'
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(120,30): warning C4018: '<': signed/unsigned mismatch
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(122,31): warning C4018: '<': signed/unsigned mismatch
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(139,30): warning C4018: '<': signed/unsigned mismatch
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(427,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(430,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(433,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\test3Profile.cpp(437,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+﻿  SocialNetwork.cpp
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\SocialNetwork.cpp(64,41): warning C4018: '>=': signed/unsigned mismatch
+  Tester.cpp
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(18,1): warning C4005: 'PURPLE': macro redefinition
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(12): message : see previous definition of 'PURPLE'
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(119,29): warning C4018: '<': signed/unsigned mismatch
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(121,30): warning C4018: '<': signed/unsigned mismatch
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(138,29): warning C4018: '<': signed/unsigned mismatch
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(696,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(699,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(702,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\HW_week2_OhadShaked\Tester.cpp(706,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
   HW_week2_OhadShaked.vcxproj -> C:\Magshimim\CPP\homework-week-2\HW_week2_OhadShaked\x64\Debug\HW_week2_OhadShaked.exe
