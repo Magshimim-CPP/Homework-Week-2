@@ -13,12 +13,12 @@ private:
 	UserList* friends;
 
 public:
-	void init(const User& owner);
+	void init(User owner);
 	void clear();
 	User getOwner() const;
-	void setStatus(const string& new_status);
-	void addPostToProfilePage(const string& post);
-	void addFriend(const User& friend_to_add);
+	void setStatus(string new_status);
+	void addPostToProfilePage(string post);
+	void addFriend(User friend_to_add);
 	string getPage() const;
 	string getFriends() const;
 	string getFriendsWithSameNameLength() const;

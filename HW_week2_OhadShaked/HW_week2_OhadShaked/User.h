@@ -21,5 +21,4 @@ public:
 	DevicesList& getDevices() const;
 	void addDevice(Device newDevice);
 	bool checkIfDevicesAreOn() const;
-
 };

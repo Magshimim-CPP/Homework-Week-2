@@ -21,22 +21,24 @@ enum DeviceType {PHONE, PC, LAPTOP, TABLET};		     //
 													     //
 /// ///////////////////////////////////////////////////////
 
-
+//Device class
 class Device
 {
+//setting private class variables.
 private:
-	unsigned int id;
-	DeviceType type;
-	string os;
-	bool activeStatus;
+	unsigned int id; //Device id
+	DeviceType type; //Device type
+	string os; //Device operating System
+	bool activeStatus; //Device active(yes/no) status.
 
+//setting public functions for the device class.
 public:
-	void init(unsigned int id, DeviceType type, string os);
-	unsigned int getID() const;
-	DeviceType getType() const;
-	string getOS() const;
-	bool isActive() const;
-	void activate();
-	void deactivate();
+	void init(unsigned int id, DeviceType type, string os); //Initialization function for the device class.
+	unsigned int getID() const; //const 'get' function that returns the device's id.
+	DeviceType getType() const; //const 'get' function that returns the device's type.
+	string getOS() const; //const 'get' function that returns the device's operating System.
+	bool isActive() const; //const function that returns the device's active status.
+	void activate(); //function to set the device's 'activeStatus' field to true.
+	void deactivate(); //function to set the device's 'activeStatus' field to false.
 };
 

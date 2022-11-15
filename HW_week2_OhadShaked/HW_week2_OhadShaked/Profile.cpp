@@ -6,7 +6,7 @@
 #define ZERO 0
 #define ONE 1
 
-void Profile::init(const User& owner)
+void Profile::init(User owner)
 {
 	this->user = owner;
 	page = new Page;
@@ -28,17 +28,17 @@ User Profile::getOwner() const
 	return user;
 }
 
-void Profile::setStatus(const string& new_status)
+void Profile::setStatus(string new_status)
 {
 	page->setStatus(new_status);
 }
 
-void Profile::addPostToProfilePage(const string& post)
+void Profile::addPostToProfilePage(string post)
 {
 	page->addLineToPosts(post);
 }
 
-void Profile::addFriend(const User& friend_to_add)
+void Profile::addFriend(User friend_to_add)
 {
 	friends->add(friend_to_add);
 }
