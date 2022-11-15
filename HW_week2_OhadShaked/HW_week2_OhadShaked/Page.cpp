@@ -28,5 +28,5 @@ void Page::setStatus(string status)
 
 void Page::addLineToPosts(string new_line)
 {
-	posts += "\n" + new_line;
+	posts += new_line + "\n";
 }
